@@ -39,53 +39,54 @@ fun TugasLogin(modifier: Modifier = Modifier) {
         ) {
             Text(
                 text = "Login",
-                fontSize = 32.sp,
+                fontSize = 34.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue
             )
             Spacer(modifier = Modifier.height(4.dp))
             Text(
                 text = "Ini adalah halaman login,",
-                fontSize = 14.sp,
+                fontSize = 18.sp,
                 color = Color.Black
             )
-            Spacer(modifier = Modifier.height(24.dp))
+            Spacer(modifier = Modifier.height(4.dp))
             Image(
                 painter = painterResource(id = R.drawable.logo_umy),
                 contentDescription = "Logo UMY",
                 modifier = Modifier
-                    .size(100.dp)
+                    .size(260.dp)
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(4.dp))
             Text(
                 text = "Nama",
-                fontSize = 16.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Red
             )
             Text(
                 text = "Masayu Eqfalarissa",
-                fontSize = 18.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue
             )
             Text(
                 text = "20240140227",
-                fontSize = 20.sp,
+                fontSize = 22.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
+            Spacer(modifier = Modifier.height(22.dp))
             Image(
                 painter = painterResource(id = R.drawable.profil),
                 contentDescription = "profil",
                 modifier = Modifier
-                    .size(220.dp)
+                    .size(280.dp)
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
-            Spacer(modifier = Modifier.height(16.dp))
+
         }
     }
 }
