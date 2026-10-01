@@ -58,6 +58,25 @@ fun TugasLogin() {
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
+            Spacer(modifier = Modifier.height(16.dp))
+            Text(
+                text = "Nama",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
+            Text(
+                text = "Masayu Eqfalarissa",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Blue
+            )
+            Text(
+                text = "20240140227",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
         }
 
     }
