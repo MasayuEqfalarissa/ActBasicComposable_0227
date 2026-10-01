@@ -24,6 +24,13 @@ fun TugasLogin() {
     Box(
         modifier = Modifier.fillMaxSize()
     ) {
+        // Latar Belakang Gambar
+        Image(
+            painter = painterResource(id = R.drawable.background),
+            contentDescription = "Background Login",
+            modifier = Modifier.fillMaxSize(),
+            contentScale = ContentScale.Crop
+        )
 
     }
 }
