@@ -77,6 +77,15 @@ fun TugasLogin() {
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
+            Image(
+                painter = painterResource(id = R.drawable.profil),
+                contentDescription = "profil",
+                modifier = Modifier
+                    .size(220.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+            Spacer(modifier = Modifier.height(16.dp))
         }
 
     }
