@@ -86,7 +86,6 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .clip(CircleShape),
                 contentScale = ContentScale.Crop
             )
-
         }
     }
 }
