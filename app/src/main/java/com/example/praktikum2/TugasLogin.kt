@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun TugasLogin() {
+fun TugasLogin(modifier: Modifier = Modifier) {
     Box(
         modifier = Modifier.fillMaxSize()
     ) {
@@ -87,6 +87,5 @@ fun TugasLogin() {
             )
             Spacer(modifier = Modifier.height(16.dp))
         }
-
     }
 }
