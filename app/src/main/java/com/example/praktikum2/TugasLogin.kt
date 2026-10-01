@@ -49,6 +49,15 @@ fun TugasLogin() {
                 fontSize = 14.sp,
                 color = Color.Black
             )
+            Spacer(modifier = Modifier.height(24.dp))
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
         }
 
     }
